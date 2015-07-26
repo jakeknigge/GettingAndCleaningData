@@ -1,13 +1,9 @@
-==================================================================
-Getting and Cleaning Data
-Course Project
-Code Book
-==================================================================
-Jake Knigge
-==================================================================
+# Getting and Cleaning Data
+## Course Project - Code Book
+
 Reference: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-==================================================================
-Summary
+
+### Summary
 
 There are two broad classes of variables in the data set: time domain variables and frequency domain variables.  Time domain variables are denoted with a “t” prefix; frequency domain variables are denoted with a “f” prefix.  
 
@@ -21,9 +17,8 @@ The inclusion of “mean()” or “std()” in a variable name denotes that the mean or
 
 Finally, the inclusion of “Mag” in a variable name denotes the observation as representing a magnitude (as calculated from the Euclidean norm).
 
-==================================================================
-Time domain variables
-==================================================================
+
+### Time domain variables
 
 tBodyAcc - Body accelerometer measure
 "tBodyAcc-mean()-X"           
@@ -85,9 +80,8 @@ tBodyGyroJerkMag - Magnitude of jerk of body gyroscope measure
 "tBodyGyroJerkMag-mean()"    
 "tBodyGyroJerkMag-std()"
 
-==================================================================
-Frequency domain variables
-==================================================================
+
+### Frequency domain variables
 
 fBodyAcc - Body accelerometer measure
 "fBodyAcc-mean()-X"          
