@@ -3,20 +3,26 @@
 
 Reference: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-### Summary
+### Summary of variables
 
-There are two broad classes of variables in the data set: time domain variables and frequency domain variables.  Time domain variables are denoted with a “t” prefix; frequency domain variables are denoted with a “f” prefix.  
+There are two broad classes of variables in the data set: time domain variables and frequency domain variables.  Time domain variables are denoted with a *t* prefix; frequency domain variables are denoted with a *f* prefix.  
 
-Based on the “Feature Selection” description provided by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto, the acceleration and jerk signals were used to create additional variables. Specifically, “the acceleration signal was then separated into body and gravity acceleration signals… the body linear acceleration and angular velocity were derived in time to obtain Jerk signals… and the magnitude of these three-dimensional signals were calculated using the Euclidean norm.”
+Based on the *Feature Selection* description provided by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto, the acceleration and jerk signals were used to create additional variables. Specifically, 
+
+1. "The acceleration signal was then separated into body and gravity acceleration signals"
+2. "The body linear acceleration and angular velocity were derived in time to obtain Jerk signals"
+3. "The magnitude of these three-dimensional signals were calculated using the Euclidean norm."
 
 The frequency domain variables were created by taking the Fast Fourier Transform of the signals of certain time domain variables.
 
-The inclusion of “X”, “Y”, “Z” in a variable denotes the coordinate direction of the accelerometer or gyroscope.
+The inclusion of *X*, *Y*, *Z* in a variable denotes the coordinate direction of the accelerometer or gyroscope.
 
-The inclusion of “mean()” or “std()” in a variable name denotes that the mean or standard deviation (respectively) of the variable was estimated from the observed data.  For example, tBodyAcc-mean()-X represents the mean of the tBodyAcc variable in the X direction.
+The inclusion of *mean()* or *std()* in a variable name denotes that the mean or standard deviation (respectively) of the variable was estimated from the observed data.  For example, tBodyAcc-mean()-X represents the mean of the tBodyAcc variable in the X direction.
 
-Finally, the inclusion of “Mag” in a variable name denotes the observation as representing a magnitude (as calculated from the Euclidean norm).
+Finally, the inclusion of √íMag√ì in a variable name denotes the observation as representing a magnitude (as calculated from the Euclidean norm).
 
+## Variable descriptions
+Variable types (e.g., tBodyAcc) are followed by a short description of what the variable measures.  Actual variable names (e.g., "tBodyAcc-mean()-X") are provided after the variable type and are contained within quotations.
 
 ### Time domain variables
 
@@ -42,7 +48,7 @@ tBodyAccJerk - Jerk of body accelerometer measure
 "tBodyAccJerk-mean()-Z"
 "tBodyAccJerk-std()-X"        
 "tBodyAccJerk-std()-Y"        
-"tBodyAccJerk-std()-Z”      
+"tBodyAccJerk-std()-Z√ì      
 
 tBodyGyro - Body gyroscope measure
 "tBodyGyro-mean()-X"          
@@ -79,7 +85,6 @@ tBodyGyroMag - Magnitude of body gyroscope measure
 tBodyGyroJerkMag - Magnitude of jerk of body gyroscope measure
 "tBodyGyroJerkMag-mean()"    
 "tBodyGyroJerkMag-std()"
-
 
 ### Frequency domain variables
 
