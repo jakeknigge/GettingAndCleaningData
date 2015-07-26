@@ -19,7 +19,7 @@ The inclusion of *X*, *Y*, *Z* in a variable denotes the coordinate direction of
 
 The inclusion of *mean()* or *std()* in a variable name denotes that the mean or standard deviation (respectively) of the variable was estimated from the observed data.  For example, tBodyAcc-mean()-X represents the mean of the tBodyAcc variable in the X direction.
 
-Finally, the inclusion of ÒMagÓ in a variable name denotes the observation as representing a magnitude (as calculated from the Euclidean norm).
+Finally, the inclusion of *Mag* in a variable name denotes the observation as representing a magnitude (as calculated from the Euclidean norm).
 
 ## Variable descriptions
 Variable types (e.g., tBodyAcc) are followed by a short description of what the variable measures.  Actual variable names (e.g., "tBodyAcc-mean()-X") are provided after the variable type and are contained within quotations.
